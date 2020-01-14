@@ -36,7 +36,7 @@ Starting Dialyzer
     lib/dialyxir/formatter.ex:199: Dialyxir.Formatter.filter_warnings/3
 ```
 
-## Installation
+### Installation
 
 Run:
 ```
