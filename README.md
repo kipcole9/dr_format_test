@@ -45,7 +45,7 @@ mix dialyzer
 
 ### Tested environment
 
-Elixir 1.10.0-rc.0
-Erlang 22.2
-Dialixir 1.0.0-rc.7
+* Elixir 1.10.0-rc.0
+* Erlang 22.2
+* Dialixir 1.0.0-rc.7
 
