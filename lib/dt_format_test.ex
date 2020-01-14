@@ -1,8 +1,5 @@
 defmodule DtFormat do
-  @start_date ~D[2020-01-01]
-
   def test do
-    # Cldr.Date.to_string!(@start_date, Acme.Cldr, format: "MM.yyyy")
-    Cldr.Date.to_string!(@start_date, Acme.Cldr)
+    Cldr.Number.to_string! 1234, Acme.Cldr
   end
 end

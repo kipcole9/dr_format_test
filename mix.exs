@@ -21,8 +21,9 @@ defmodule DtFormatTest.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:ex_cldr_dates_times, "~> 2.0"},
+      {:ex_cldr_dates_times, "~> 2.2.3"},
       {:dialyxir, "~> 1.0.0-rc", only: [:dev], runtime: false, optional: true},
+      {:jason, "~> 1.0"}
     ]
   end
 end
