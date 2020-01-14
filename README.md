@@ -4,6 +4,7 @@ App to help debug a dialyzer exception.
 
 ### Re-recreate the exception
 ```
+# Also tried with other --formats
 kip$ mix dialyzer --format dialyzer
 Compiling 1 file (.ex)
 Finding suitable PLTs
